@@ -54,7 +54,7 @@ Your machine should already be logged in to GitHub (see the lecture 08 review). 
 15. Open `scripts/03-plot.py` and add this exact comment as a new line at the top of the file: `# Reviewed for the field season report`. Then run `git diff`, paste the output into `commands.txt`, and add one sentence explaining what the lines starting with `+` mean.
 16. Stage all changes and commit with the message "Update analyss" (with this exact typo).
 17. Fix the last commit message with a single command so it reads "Update analysis".
-18. Switch back to the `main` branch and merge `station-upgrade` into it.
+18. Switch back to the `main` branch and merge `station-upgrade` into it. If Git refuses to switch because of changes to `commands.txt`, commit them on `station-upgrade` first.
 19. Show the history with `git log --oneline` and paste the output into `commands.txt`.
 20. Update `commands.txt` with all commands used, stage it, commit with the message "Add command log", and push everything to your fork. Done! 😊
 
@@ -63,6 +63,6 @@ Your machine should already be logged in to GitHub (see the lecture 08 review). 
 Attempt these only after finishing the main tasks, if you still have time (and like challenges). Document every step in `commands.txt`.
 
 1. Open a pull request from your fork to the original repository (this one). Document each step of the process.
-2. Perform an interactive rebase to squash the last two commits into a single commit.
+2. Perform an interactive rebase to squash the last two commits into a single commit. You have already pushed these commits, so you will need `git push --force` afterwards.
 
 Best of luck!
