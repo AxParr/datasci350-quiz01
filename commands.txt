@@ -1,0 +1,21 @@
+On branch station-upgrade
+nothing to commit, working tree clean
+The log files do not apper because they are set to match the log?.txt inside of .gitignore, since it is not isnide then it will be ignored.
+diff --git a/commands.txt b/commands.txt
+index e69de29..6fddaa8 100644
+--- a/commands.txt
++++ b/commands.txt
+@@ -0,0 +1,3 @@
++On branch station-upgrade
++nothing to commit, working tree clean
++The log files do not apper because they are set to match the log?.txt inside of .gitignore, since it is not isnide then it will be ignored.
+diff --git a/results/summary.md b/results/summary.md
+index 609870e..9fb3d7a 100644
+--- a/results/summary.md
++++ b/results/summary.md
+@@ -1,2 +1,4 @@
+ Analysis of the first field season.
+ Analysis of the first field season.
++      41
++41
+Lines starting with + are lines that were added to the file since the last commit.
